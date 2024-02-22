@@ -1,4 +1,4 @@
-package hierarchy;
+
 
 /**
  * A Canvas that has all four types of PaintObjects drawn on it.
@@ -31,7 +31,7 @@ import hierarchy.Rectangle;
 import hierarchy.Oval;
 import hierarchy.Picture;
 
-public class TestPaintObjectHierarchy extends Application {
+public class TestPaintHierarchy extends Application {
 
  public static void main(String[] args) {
    launch(args);
@@ -108,10 +108,10 @@ public class TestPaintObjectHierarchy extends Application {
    allPaintObjects.add(l);
    allPaintObjects.add(m);
 
-   PaintObject n = new Picture(new Point2D(12, 8), new Point2D(50, 50), "doge.jpeg");
+   PaintObject n = new Picture(new Point2D(12, 8), new Point2D(50, 50), "/hierarchy/doge.jpeg");
    // The constructor needs to adjust values if from is lower right of to
-   PaintObject o = new Picture(new Point2D(140, 140), new Point2D(220, 280),  "doge.jpeg");
-   PaintObject p = new Picture (new Point2D(500, 400), new Point2D(600, 600), "doge.jpeg");
+   PaintObject o = new Picture(new Point2D(140, 140), new Point2D(220, 280),  "/hierarchy/doge.jpeg");
+   PaintObject p = new Picture (new Point2D(500, 400), new Point2D(600, 600), "/hierarchy/doge.jpeg");
    allPaintObjects.add(n);
    allPaintObjects.add(o);
    allPaintObjects.add(p);
