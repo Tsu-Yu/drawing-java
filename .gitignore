@@ -1,25 +1,32 @@
-# Compiled class file
+
+# macOS 系統檔
+.DS_Store
+
+# IDE 設定
+.vscode/
+.idea/
+*.iml
+
+# Eclipse 專用
+.classpath
+.project
+.settings/
+
+# Java build 產物
+target/
+out/
+bin/
 *.class
 
-# Log file
+# JavaFX 的 build cache（若有用 Gradle）
+build/
+
 *.log
+*.tmp
+*.bak
 
-# BlueJ files
-*.ctxt
+# Node / Webpack
+node_modules/
+dist/
 
-# Mobile Tools for Java (J2ME)
-.mtj.tmp/
-
-# Package Files #
-*.jar
-*.war
-*.nar
-*.ear
-*.zip
-*.tar.gz
-*.rar
-
-# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
-replay_pid*
-/bin/
+[200~cat > .gitignore << 'EOF'
