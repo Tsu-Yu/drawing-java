@@ -1,24 +1,18 @@
-
-# macOS 系統檔
 .DS_Store
 
-# IDE 設定
 .vscode/
 .idea/
 *.iml
 
-# Eclipse 專用
 .classpath
 .project
 .settings/
 
-# Java build 產物
 target/
 out/
 bin/
 *.class
 
-# JavaFX 的 build cache（若有用 Gradle）
 build/
 
 *.log
