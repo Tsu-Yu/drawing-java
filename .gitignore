@@ -23,4 +23,3 @@ build/
 node_modules/
 dist/
 
-[200~cat > .gitignore << 'EOF'
